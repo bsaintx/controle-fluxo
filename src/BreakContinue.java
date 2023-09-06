@@ -12,7 +12,7 @@ public class BreakContinue {
         System.out.println("  ");
         System.out.println("Continue");
         for(int par = 0; par <= 20; par ++) {
-            if (par % 2 != 0) { // número par ---- ímpar: % 2 != 0
+            if (par % 2 != 0) { // imprime os números pares ---- ímpar: % 2 != 0
                 continue; // Pula um valor específico
             }
             
@@ -20,3 +20,4 @@ public class BreakContinue {
         }
     }
 }
+
