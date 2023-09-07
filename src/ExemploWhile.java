@@ -1,23 +1,24 @@
-import java.util.concurrent.ThreadLocalRandom;
-
 /**
  * Estrutura do controle de fluxo while
  * 
  * while (expressão booleana de validação) {
- * // comando que será executado até que a
- * // expressao de valisação torne-se falsa
+     * // comando que será executado até que a
+     * // expressao de valisação torne-se falsa
  * }
  */
 
-public class While {
+import java.util.concurrent.ThreadLocalRandom;
+
+public class ExemploWhile {
     public static void main(String[] args) {
-        double mesada = 50.0;
+        Double mesada = 50.0;
 
         while( mesada > 0 ) {
             Double valorDoce = valorAleatorio();
 
-            if( valorDoce > mesada )
+            if( valorDoce > mesada ) {
                 valorDoce = mesada;
+            }    
             System.out.println("Doce do valor: " + valorDoce + " Adicionando ao carrinho.");
             mesada = mesada - valorDoce;
         }
