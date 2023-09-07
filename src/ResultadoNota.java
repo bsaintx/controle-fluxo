@@ -1,12 +1,12 @@
 public class ResultadoNota {
     public static void main(String[] args) {
-        int nota = 4;
+        int notaAluno = 4;
 
-        if (nota >= 7) {
+        if (notaAluno >= 7) {
             System.out.println("Aprovado");
         }
 
-        else if (nota >= 5 && nota <= 7) {
+        else if (notaAluno >= 5 && notaAluno <= 7) {
             System.out.println("Prova de Recuperação");
         }
 
