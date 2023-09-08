@@ -1,11 +1,9 @@
 
 /**
  * do {
- *     Comando para fazer alguma coisa
- * 
+ *     - Comando para fazer alguma coisa
  * } while( expressão booleana ) {
- * 
- *      Enquando for verdadeiro
+ *     - Enquando for verdadeiro
  * }
  * 
  */
