@@ -1,8 +1,8 @@
 public class PlanoOperadora {
     public static void main(String[] args) {
-        String plan = "T";
+        String plano = "T";
 
-        switch (plan) {
+        switch (plano) {
             case "T": {
                 System.out.println("5GB Youtube");
             }
