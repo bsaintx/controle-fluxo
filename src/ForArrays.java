@@ -4,7 +4,7 @@ public class ForArrays {
         System.out.println("  ");
         System.out.println("For Clássico");
         
-        String alunos [] = { "Bruno", "Juliana", "Nathalia", "Maycon"};
+        String alunos [] = { "Bruno", "Juliana", "Nathalia", "Maycon", "Marco"};
 
         for (int x = 0; x < alunos.length; x++) {
             System.out.println("O aluno no índice x= " + x + " é " + alunos[x]);
