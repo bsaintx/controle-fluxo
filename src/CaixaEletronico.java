@@ -9,6 +9,6 @@ public class CaixaEletronico {
             System.out.println("Saldo indisponível.");
         }
 
-        System.out.println("Saldo disponível: " + saldo);
+        System.out.println("Saldo: " + saldo);
     }
 }
