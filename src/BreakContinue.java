@@ -3,7 +3,7 @@ public class BreakContinue {
         System.out.println("  ");
         System.out.println("Break");
         for(int numero = 1; numero <= 5; numero ++) {
-            if (numero == 3) {
+            if (numero == 2) {
                 break; // Interrompe o laço
             }
 
