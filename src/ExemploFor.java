@@ -17,7 +17,7 @@
 public class ExemploFor {
     public static void main(String[] args) {
     
-        int number = 10;
+        int number = 8;
 
         System.out.println("Tabuada do " + number + ":");
         System.out.println("  ");
