@@ -17,14 +17,14 @@
 public class ExemploFor {
     public static void main(String[] args) {
     
-        int numero = 5;
+        int number = 10;
 
-        System.out.println("Tabuada do " + numero + ":");
+        System.out.println("Tabuada do " + number + ":");
         System.out.println("  ");
 
         for (int i = 1; i <= 10; i++) {
-            int resultado = numero * i;
-            System.out.println(numero + " * " + i + " = " + resultado);
+            int result = number * i;
+            System.out.println(number + " * " + i + " = " + result);
         }
     }
 }
