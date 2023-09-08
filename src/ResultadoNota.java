@@ -1,6 +1,6 @@
 public class ResultadoNota {
     public static void main(String[] args) {
-        int notaAluno = 4;
+        int notaAluno = 2;
 
         if (notaAluno >= 7) {
             System.out.println("Aprovado");
