@@ -1,11 +1,9 @@
 
 /**
  * do {
- *     Comando para fazer alguma coisa
- * 
+ *     - Comando para fazer alguma coisa
  * } while( expressão booleana ) {
- * 
- *      Enquando for verdadeiro
+ *     - Enquando for verdadeiro
  * }
  * 
  */
@@ -17,7 +15,7 @@ public class ExemploDoWhile {
 
         System.out.println("Discando...");
         do {
-            System.out.println("Telefone tocando");
+            System.out.println("Telefone tocando...");
             System.out.println("Não atendeu");
 
         } while (tocando());

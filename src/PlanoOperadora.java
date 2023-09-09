@@ -1,6 +1,6 @@
 public class PlanoOperadora {
     public static void main(String[] args) {
-        String plano = "B";
+        String plano = "T";
 
         switch (plano) {
             case "T": {
