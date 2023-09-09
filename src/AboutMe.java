@@ -33,7 +33,6 @@ public class AboutMe {
 
     private static String formatAge(double age) {
         return String.format("%.0f", age);
-
     }
 
 }
