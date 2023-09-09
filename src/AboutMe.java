@@ -16,9 +16,9 @@ public class AboutMe {
             System.out.println("Hello, my name is " + name + " " + lastName);
             System.out.println("I'm " + formatAge(age) + " years old ");
             System.out.println("I have " + height + "cm");
-            
+
             scanner.close();
-    } 
+    }
     catch(InputMismatchException e){    
             System.out.println("Os campos de idade e altura precisam ser numéricos. Altura precisar ter o separador americano '.'");
         }
